@@ -68,8 +68,8 @@
 	  	document.getElementById("navbar").style.maxHeight = "20%";
 	    document.getElementById("navbar").style.padding = "10px";
 	    document.getElementById("navbar").style.backgroundColor = "white";
-	    document.getElementById("logo").style.transition = "transform 0.25s";
-	    document.getElementById("navbar").style.transition = "padding 1s linear";
+	    document.getElementById("logo").style.transition = "transform 0.25s cubic-bazier(0.32,0.62,0.67,0.36)";
+	    document.getElementById("navbar").style.transition = "padding 0.5s";
 	  } else {
 	    document.getElementById("logo").style.width = "80%";
 	    document.getElementById("navbar").style.padding = "15% 1% 15% 1%";
